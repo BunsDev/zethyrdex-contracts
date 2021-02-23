@@ -1,6 +1,8 @@
 pragma solidity >=0.5.0;
 
 contract ZethyrSwapMemory {
+	
+	uint8 public version = 100;
 	address public owner;
 
 	mapping(address => bool) public contractList;

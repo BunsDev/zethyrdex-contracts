@@ -8,6 +8,7 @@ import "../IZethyrSwapMemory.sol";
 contract ZethyrBakerySwap {
     address public owner;
     address public WBNB;
+    uint8 public version = 100;
     IBakerySwapRouter public cBSwapRouter;
     IZethyrSwapMemory public cZSwapMemory;
     modifier onlyOwner()
